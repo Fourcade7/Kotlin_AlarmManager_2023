@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TimePicker
+        android:id="@+id/timepicker"
+        android:timePickerMode="spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TimePicker>
+    <Button
+
+        android:id="@+id/buttonschedulealarm"
+        android:layout_width="match_parent"
+        android:text="Schedule Alarm"
+        android:layout_height="wrap_content"></Button>
+    <Button
+
+        android:id="@+id/buttonschedulerepeatingalarm"
+        android:layout_width="match_parent"
+        android:text="Schedule repeating Alarm"
+        android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
